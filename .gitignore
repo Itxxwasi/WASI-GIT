@@ -1,0 +1,9 @@
+node_modules/
+session/
+.env
+*.log
+.DS_Store
+database/
+*.db
+*.db-journal
+main-clean.js

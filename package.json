@@ -1,0 +1,26 @@
+{
+  "name": "wasi-md",
+  "version": "1.0.0",
+  "description": "Simple and lightweight multi-device WhatsApp bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "multi-device"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0",
+    "pino": "^8.15.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
